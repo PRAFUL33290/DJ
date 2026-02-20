@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 60">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="42" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6b35"/>
+      <stop offset="1" stop-color="#e91e8c"/>
+    </linearGradient>
+  </defs>
+  <!-- Pin body -->
+  <path d="M21 4 C8 4 2 13 2 21 C2 34 21 56 21 56 C21 56 40 34 40 21 C40 13 34 4 21 4Z"
+        fill="url(#g)"/>
+  <!-- Inner circle -->
+  <circle cx="21" cy="21" r="8" fill="white" opacity="0.80"/>
+</svg>

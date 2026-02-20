@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Show confirmation (no backend)
     const btn = form.querySelector('button[type="submit"]');
     const originalText = btn.textContent;
-    btn.textContent = '✅ Demande envoyée !';
+    btn.textContent = 'Demande envoyée !';
     btn.disabled = true;
     btn.style.opacity = '0.7';
 
