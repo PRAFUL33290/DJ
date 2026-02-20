@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <g transform="translate(200,200)" fill="none">
+
+    <!-- ── Concentric rings ── -->
+    <circle r="192" stroke="#f7c948" stroke-width="0.8" opacity="0.18"/>
+    <circle r="178" stroke="#ff6b35" stroke-width="0.4" opacity="0.14"/>
+    <circle r="160" stroke="#f7c948" stroke-width="0.8" opacity="0.18"/>
+    <circle r="140" stroke="#e91e8c" stroke-width="0.4" opacity="0.14"/>
+    <circle r="122" stroke="#f7c948" stroke-width="0.8" opacity="0.20"/>
+    <circle r="104" stroke="#9b59b6" stroke-width="0.4" opacity="0.14"/>
+    <circle r="88"  stroke="#f7c948" stroke-width="0.8" opacity="0.22"/>
+    <circle r="70"  stroke="#ff6b35" stroke-width="0.4" opacity="0.16"/>
+    <circle r="54"  stroke="#f7c948" stroke-width="0.8" opacity="0.24"/>
+    <circle r="36"  stroke="#e91e8c" stroke-width="0.4" opacity="0.18"/>
+    <circle r="20"  stroke="#f7c948" stroke-width="0.8" opacity="0.28"/>
+
+    <!-- ── 8 outer large petals (r≈170) ── -->
+    <g fill="#ff6b35" opacity="0.18">
+      <ellipse cx="0" cy="-170" rx="18" ry="28"/>
+      <ellipse cx="0" cy="-170" rx="18" ry="28" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-170" rx="18" ry="28" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-170" rx="18" ry="28" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-170" rx="18" ry="28" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-170" rx="18" ry="28" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-170" rx="18" ry="28" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-170" rx="18" ry="28" transform="rotate(315)"/>
+    </g>
+
+    <!-- ── 8 medium petals (r≈122) ── -->
+    <g fill="#e91e8c" opacity="0.20">
+      <ellipse cx="0" cy="-122" rx="13" ry="22"/>
+      <ellipse cx="0" cy="-122" rx="13" ry="22" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-122" rx="13" ry="22" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-122" rx="13" ry="22" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-122" rx="13" ry="22" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-122" rx="13" ry="22" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-122" rx="13" ry="22" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-122" rx="13" ry="22" transform="rotate(315)"/>
+    </g>
+
+    <!-- ── 16 fine petals (r≈88) ── -->
+    <g fill="#f7c948" opacity="0.22">
+      <ellipse cx="0" cy="-88" rx="7" ry="13"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(22.5)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(67.5)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(112.5)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(157.5)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(202.5)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(247.5)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(292.5)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(315)"/>
+      <ellipse cx="0" cy="-88" rx="7" ry="13" transform="rotate(337.5)"/>
+    </g>
+
+    <!-- ── 8 inner petals (r≈54) ── -->
+    <g fill="#ff6b35" opacity="0.28">
+      <ellipse cx="0" cy="-54" rx="9" ry="15"/>
+      <ellipse cx="0" cy="-54" rx="9" ry="15" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-54" rx="9" ry="15" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-54" rx="9" ry="15" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-54" rx="9" ry="15" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-54" rx="9" ry="15" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-54" rx="9" ry="15" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-54" rx="9" ry="15" transform="rotate(315)"/>
+    </g>
+
+    <!-- ── 8 diamond dots at r=140 ── -->
+    <g fill="#f7c948" opacity="0.28">
+      <rect x="-4" y="-147" width="8" height="14" rx="2"/>
+      <rect x="-4" y="-147" width="8" height="14" rx="2" transform="rotate(45)"/>
+      <rect x="-4" y="-147" width="8" height="14" rx="2" transform="rotate(90)"/>
+      <rect x="-4" y="-147" width="8" height="14" rx="2" transform="rotate(135)"/>
+      <rect x="-4" y="-147" width="8" height="14" rx="2" transform="rotate(180)"/>
+      <rect x="-4" y="-147" width="8" height="14" rx="2" transform="rotate(225)"/>
+      <rect x="-4" y="-147" width="8" height="14" rx="2" transform="rotate(270)"/>
+      <rect x="-4" y="-147" width="8" height="14" rx="2" transform="rotate(315)"/>
+    </g>
+
+    <!-- ── Center lotus ── -->
+    <circle r="20" fill="#f7c948" opacity="0.30"/>
+    <circle r="10" fill="#e91e8c" opacity="0.40"/>
+    <circle r="4"  fill="#f7c948" opacity="0.60"/>
+  </g>
+</svg>

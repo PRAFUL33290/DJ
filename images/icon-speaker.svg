@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 56" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="60" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6b35"/>
+      <stop offset="1" stop-color="#f7c948"/>
+    </linearGradient>
+  </defs>
+  <!-- Speaker body -->
+  <path d="M8 20 L8 36 L18 36 L32 46 L32 10 L18 20Z" fill="url(#g)"/>
+  <!-- Sound waves -->
+  <path d="M39 18 Q46 28 39 38" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M44 12 Q54 28 44 44" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+</svg>

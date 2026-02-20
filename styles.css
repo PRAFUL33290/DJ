@@ -130,10 +130,9 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: radial-gradient(ellipse at center, #1a0a2e 0%, #0a0a0a 70%),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><radialGradient id="a" cx="50%25" cy="50%25" r="50%25"><stop offset="0%25" style="stop-color:%23ff6b35;stop-opacity:0.3"/><stop offset="100%25" style="stop-color:%23ff6b35;stop-opacity:0"/></radialGradient><radialGradient id="b" cx="30%25" cy="70%25" r="40%25"><stop offset="0%25" style="stop-color:%23e91e8c;stop-opacity:0.25"/><stop offset="100%25" style="stop-color:%23e91e8c;stop-opacity:0"/></radialGradient><radialGradient id="c" cx="70%25" cy="30%25" r="35%25"><stop offset="0%25" style="stop-color:%23f7c948;stop-opacity:0.2"/><stop offset="100%25" style="stop-color:%23f7c948;stop-opacity:0"/></radialGradient></defs><rect fill="%230a0a0a" width="1200" height="800"/><rect fill="url(%23a)" width="1200" height="800"/><rect fill="url(%23b)" width="1200" height="800"/><rect fill="url(%23c)" width="1200" height="800"/></svg>');
-  background-size: cover;
-  background-position: center;
+  background: url('images/bg-holi.svg') center / cover no-repeat,
+              radial-gradient(ellipse at center, #1a0a2e 0%, #0a0a0a 70%);
+  background-blend-mode: lighten, normal;
 }
 
 .hero-overlay {
@@ -149,8 +148,8 @@ img {
 }
 
 .hero-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
+  font-family: 'Rozha One', 'Montserrat', serif;
+  font-weight: 400;
   font-size: clamp(2.5rem, 8vw, 5rem);
   letter-spacing: 0.05em;
   background: linear-gradient(135deg, #ff6b35, #f7c948, #e91e8c, #9b59b6);
@@ -247,7 +246,8 @@ img {
 
 /* ===== ABOUT ===== */
 .about {
-  background: #0f0f0f;
+  background: #0f0f0f url('images/bg-mandala.svg') no-repeat right center;
+  background-size: auto 90%;
 }
 
 .about-content {
@@ -267,6 +267,10 @@ img {
 }
 
 /* ===== SERVICES ===== */
+.services {
+  background: #0a0a0a url('images/bg-holi.svg') no-repeat center / cover;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -288,9 +292,10 @@ img {
 }
 
 .service-icon {
-  font-size: 3rem;
   display: block;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
+  max-width: 72px;
+  height: auto;
 }
 
 .service-card h3 {
@@ -322,7 +327,9 @@ img {
 
 /* ===== BOLLYWOOD ===== */
 .bollywood {
-  background: linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 50%, #1a0a2e 100%);
+  background: url('images/bg-mandala.svg') no-repeat center,
+              linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 50%, #1a0a2e 100%);
+  background-size: 80%, cover;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -391,7 +398,8 @@ img {
 
 /* ===== EQUIPMENT ===== */
 .equipment {
-  background: #0f0f0f;
+  background: #0f0f0f url('images/bg-mandala.svg') no-repeat left center;
+  background-size: auto 80%;
 }
 
 .equipment-grid {
@@ -415,9 +423,10 @@ img {
 }
 
 .equipment-icon {
-  font-size: 2.5rem;
   display: block;
-  margin-bottom: 0.8rem;
+  margin: 0 auto 0.8rem;
+  max-width: 64px;
+  height: auto;
 }
 
 .equipment-item p {
@@ -465,6 +474,8 @@ img {
   font-weight: 700;
   color: #f7c948;
   margin-bottom: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .pricing-amount {
@@ -489,12 +500,6 @@ img {
   margin: 0 auto 1.5rem;
 }
 
-.pricing-features li {
-  padding: 0.4rem 0;
-  color: #ccc;
-  font-size: 1.05rem;
-}
-
 .pricing-extras {
   text-align: left;
   max-width: 300px;
@@ -509,21 +514,44 @@ img {
   font-size: 0.95rem;
 }
 
+.pricing-features li {
+  padding: 0.4rem 0;
+  color: #ccc;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .pricing-extras li {
   padding: 0.3rem 0;
   color: #999;
   font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.list-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 .pricing-note {
   color: #ff6b35;
   font-size: 0.85rem;
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  justify-content: center;
 }
 
 /* ===== ZONE ===== */
 .zone {
-  background: #0f0f0f;
+  background: #0f0f0f url('images/bg-mandala.svg') no-repeat center;
+  background-size: 50%;
   text-align: center;
 }
 
@@ -533,9 +561,10 @@ img {
 }
 
 .zone-pin {
-  font-size: 3rem;
   display: block;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
+  width: 42px;
+  height: auto;
 }
 
 .zone-content p {

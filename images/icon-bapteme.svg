@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff91d0"/>
+      <stop offset="100%" stop-color="#e91e8c"/>
+    </radialGradient>
+  </defs>
+  <!-- centre petal (up) -->
+  <path d="M30 45 Q18 32 30 12 Q42 32 30 45Z" fill="url(#g)" opacity="0.90"/>
+  <!-- left inner petal -->
+  <path d="M30 45 Q10 38 10 22 Q22 28 30 45Z" fill="url(#g)" opacity="0.78"/>
+  <!-- left outer petal -->
+  <path d="M30 45 Q8 47 8 35 Q16 34 30 45Z" fill="url(#g)" opacity="0.60"/>
+  <!-- right inner petal -->
+  <path d="M30 45 Q50 38 50 22 Q38 28 30 45Z" fill="url(#g)" opacity="0.78"/>
+  <!-- right outer petal -->
+  <path d="M30 45 Q52 47 52 35 Q44 34 30 45Z" fill="url(#g)" opacity="0.60"/>
+  <!-- centre circle -->
+  <circle cx="30" cy="43" r="5" fill="url(#g)"/>
+  <!-- water line -->
+  <path d="M10 51 Q30 46 50 51" fill="none" stroke="#00bfff" stroke-width="2" opacity="0.55"/>
+</svg>
