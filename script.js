@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   // --- Navbar scroll effect ---
-  var navbar = document.getElementById('navbar');
+  const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', function () {
     if (window.scrollY > 50) {
       navbar.classList.add('scrolled');
@@ -12,15 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // --- Mobile menu toggle ---
-  var navToggle = document.getElementById('nav-toggle');
-  var navMenu = document.getElementById('nav-menu');
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu = document.getElementById('nav-menu');
 
   navToggle.addEventListener('click', function () {
     navMenu.classList.toggle('active');
   });
 
   // Close mobile menu on link click
-  var navLinks = document.querySelectorAll('.nav-link');
+  const navLinks = document.querySelectorAll('.nav-link');
   navLinks.forEach(function (link) {
     link.addEventListener('click', function () {
       navMenu.classList.remove('active');
@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // --- Scroll-triggered fade-in animations ---
-  var sections = document.querySelectorAll('.section');
+  const sections = document.querySelectorAll('.section');
   sections.forEach(function (section) {
     section.classList.add('fade-in');
   });
 
-  var observer = new IntersectionObserver(
+  const observer = new IntersectionObserver(
     function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
@@ -49,19 +49,19 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // --- Contact form handling ---
-  var form = document.getElementById('contact-form');
+  const form = document.getElementById('contact-form');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    var formData = new FormData(form);
-    var data = {};
+    const formData = new FormData(form);
+    const data = {};
     formData.forEach(function (value, key) {
       data[key] = value;
     });
 
     // Show confirmation (no backend)
-    var btn = form.querySelector('button[type="submit"]');
-    var originalText = btn.textContent;
+    const btn = form.querySelector('button[type="submit"]');
+    const originalText = btn.textContent;
     btn.textContent = '✅ Demande envoyée !';
     btn.disabled = true;
     btn.style.opacity = '0.7';
